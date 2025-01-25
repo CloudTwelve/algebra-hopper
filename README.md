@@ -11,13 +11,13 @@ An educational game that combines quick reflexes with algebra practice! Jump ove
 
 ## 📸 Screenshots
 ### Gameplay
-[Insert gameplay screenshot here]
+![Screen Shot 2025-01-25 at 3 17 47 AM](https://github.com/user-attachments/assets/d398913d-d4dd-44fb-8ece-264daa992572)
 
 ### Shop Interface
-[Insert shop screenshot here]
+![Screen Shot 2025-01-25 at 3 17 37 AM](https://github.com/user-attachments/assets/ff0f78d8-10c5-4bd6-b109-8574e58e3b92)
 
 ### Math Challenge
-[Insert algebra question screenshot here]
+![Screen Shot 2025-01-25 at 3 17 25 AM](https://github.com/user-attachments/assets/87342013-fc22-40b8-921a-ff743337cb75)
 
 ## ✨ Features
 - Spacebar gameplay
