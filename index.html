@@ -12,15 +12,35 @@
         <header>
             <h1 style="color: aliceblue">Algebra Hopper</h1>
         </header>
+        <div id="Lightbox" class="modal">
+            <span class="close pointer" onclick="closeLightbox()">&times;</span>
+            <div class="modal-content">
+              <div id="qAndA">
+                <div id="question">
+                    <p id="question-text"></p>
+                </div>
+                <div id="answer">
+                    <input type="text" id="answer-text" placeholder="Enter your answer">
+                    <button id="submit" onclick="submitAnswer()">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
         <div id="container">
+            <div id="game-container">
+              <div class="head" id="game-head">
+                  <h1>Rules</h1>
+                  <p id="rules">Press space to jump, use points to buy skins!</p>
+            </div>
             <div id="game">
                 <div id="character"></div>
                 <div id="obstacle"></div>
             </div>
+          </div>
             <div id="shop">
-                <div id="shop-head">
+                <div class="head">
                     <h1>Shop</h1>
-                    <p id="score"></p>
+                    <p id="score">0</p>
                 </div>
                 <div id="shop-stuff">
                     <div class="shop-item">
@@ -32,19 +52,19 @@
                         20
                     </div>
                     <div class="shop-item">
-                        <div id="skin-3"></div>
+                        <div class="skin" id="skin-3"></div>
                         30
                     </div>
                     <div class="shop-item">
-                        <div id="skin-4"></div>
+                        <div class="skin" id="skin-4"></div>
                         40
                     </div>
                     <div class="shop-item">
-                        <div class="skin-5"></div>
+                        <div class="skin" class="skin-5"></div>
                         50
                     </div>
                     <div class="shop-item">
-                        <div class="skin-6"></div>
+                        <div class="skin" class="skin-6"></div>
                         60
                     </div>
                 </div>
@@ -52,4 +72,4 @@
         </div>
     </body>
     <script src="script.js"></script>
-</html>
+</html> 
