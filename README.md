@@ -32,7 +32,7 @@ An educational game that combines quick reflexes with algebra practice! Jump ove
 - JavaScript
 - Press Start 2P Font
 
-## 🙏 Acknowledgements
+## 👍 Acknowledgements
 - Font from [Google Fonts](https://fonts.google.com)
 - Gradient inspiration from [UI Gradients](https://uigradients.com)
 - Game mechanics inspired by Chrome's Dinosaur Game
