@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(darkslategray, black);
+    height: 100vh;
+}
+
+#game {
+    width: 50%;
+    height: 50%;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    background-color: slategray;
+}
+
+#character {
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+}
+
+#obstacle {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 130px;
+    left: 400px;
+}
+
+@keyframes obstacle {
+    0% {
+        left: 400px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    } 30% {
+        top: 100px;
+    } 70% {
+        top: 100px;
+    } 100% {
+        top: 150px;
+    }
+}
+
+#shop {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#shop-stuff {
+    background-color: lightslategray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+shop-item-1 {
+    background: linear-gradient
+}

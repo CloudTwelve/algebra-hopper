@@ -1,0 +1,2 @@
+# Algebra Hopper
+This is a basic jumper game. To jump, you press the spacebar. Every time you lose, an algebra question is given. If answered correctly, 10 coins are given, which can be used to unlock new skins.
